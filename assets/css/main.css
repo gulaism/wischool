@@ -1,0 +1,113 @@
+.slider .container {
+    background-color: rgba(226, 226, 226, 0.25);
+    border-radius: 50px;
+    padding-left: 60px;
+    padding-bottom: 39px;
+    column-gap: 121px;
+    padding-top: 58px;
+    z-index: 1;
+}
+.slider .container .blue {
+    background-color: #E4FFFF;
+    width: 107px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: -99;
+}
+.slider .container .left {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    width: 589px;
+}
+.slider .container .left button {
+    padding: 20px 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 48px;
+}
+.slider .container .right {
+    width: 391px;
+    height: 457px;
+}
+.slider .container .right .main {
+    border-radius: 40px 40px 100px 40px;
+    z-index: 99;
+}
+.slider .container .right .instructors {
+    background-color: #fff;
+    width: 262px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: #333;
+    text-align: center;
+    padding: 18px 24px 12px;
+    border-radius: 14px 14px 30px 14px;
+    box-shadow: 0px 0px 69.233px 0px rgba(112, 112, 112, 0.25);
+    bottom: 84px;
+    left: -148px;
+}
+.slider .container .right .instructors .info {
+    margin-bottom: 10px;
+}
+
+.slider .container .right .instructors .box {
+    width: 214px;
+    height: 42px;
+}
+.slider .container .right .instructors .teachers .item {
+    width: 42px;
+    height: 42px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0px;
+}
+.slider .container .right .instructors .teachers .item-1 {
+    left: 39px;
+}
+.slider .container .right .instructors .teachers .item-2 {
+    left: 63px;
+}
+.slider .container .right .instructors .teachers .item-3 {
+    left: 87px;
+}
+.slider .container .right .instructors .teachers .item-4 {
+    left: 111px;
+}
+.slider .container .right .instructors .teachers .item-5 {
+    left: 135px;
+}
+.slider .container .right .students {
+    background-color: #fff;
+    border-radius: 6.887px 6.887px 17.217px 6.887px;
+    padding: 15px 13px 8px;
+    text-align: center;
+    line-height: normal;
+    box-shadow: 0px 0px 42.698px 0px rgba(112, 112, 112, 0.25);
+    bottom: 18px;
+    right: -18px;
+}
+.slider .container .right .students .icon-person {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    background-color: rgba(225, 255, 238, 1);
+    border-radius: 30px;
+    margin-bottom: 3px;
+}
+.slider .container .right .students .amount {
+    font-size: 24px;
+    font-weight: 600;
+}
+.slider .container .right .students .subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    width: 103px;
+}
