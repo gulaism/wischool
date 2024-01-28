@@ -1,0 +1,46 @@
+.green {
+    color: var(--green);
+}
+.green-bg {
+    background-color: var(--green);
+}
+.text-white {
+    color: #fff;
+}
+.gray {
+    color: rgba(64, 64, 64, 0.8);
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.grid {
+    display: grid;
+}
+.btn {
+    background-color: transparent;
+    cursor: pointer;
+}
+.img-cover {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.inset {
+    inset: 0;
+}

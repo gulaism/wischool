@@ -1,0 +1,37 @@
+header .container {
+    height: 100px;
+}
+
+header .container .logo {
+    width: 132px;
+    height: 41px;
+}
+
+header .container .nav {
+    column-gap: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.32px;
+    height: 48px;
+}
+header .container .help .search {
+    width: 24px;
+    height: 24px;
+    margin-right: 14px;
+    padding: 0;
+}
+header .container .help .login, header .container .help .register {
+    font-size: 16px;
+    font-weight: 600;
+}
+header .container .help .login {
+    line-height: normal;
+    margin-right: 8px;
+}
+header .container .help .register {
+    line-height: 20px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
