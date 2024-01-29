@@ -158,6 +158,7 @@
 .categories {
     margin-bottom: 98px;
 }
+
 .categories .container .head {
     color: #333;
     line-height: normal;
@@ -183,10 +184,11 @@
     height: 432px;
 }
 
-.categories .container .boxes .word{
+.categories .container .boxes .word {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
-    
+
 }
+
 .categories .container .boxes .fgr .word span {
     bottom: 9px;
     left: 24px;
@@ -194,4 +196,110 @@
     font-size: 32px;
     font-weight: 600;
     line-height: normal;
+}
+
+
+.courses {
+    margin-bottom: 121px;
+}
+.courses .container .header {
+    margin-bottom: 64px;
+    margin-left: 7px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.courses .container .header .sorting {
+    height: 46px;
+    width: 129px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+
+.courses .container .header .sorting .select {
+    right: 16px;
+    top: 0;
+    bottom: 0;
+    width: 129px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: inherit;
+    -webkit-appearance: none;
+    background-color: transparent;
+    color: #fff;
+    z-index: 1;
+    text-align: end;
+}
+
+.courses .container .header .sorting .dropdown {
+    width: 30px;
+    height: 30px;
+    left: 16px;
+}
+
+.courses .container .header .sorting .select *:not(:first-child) {
+    text-align: center;
+    color: var(--green);
+}
+.courses .container .boxes {
+    grid-template-columns: repeat(3, 391px);
+    column-gap: 12px;
+    row-gap: 42px;
+}
+.courses .container .boxes .item {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
+}
+
+.courses .container .boxes .item .main {
+    width: 391px;
+    height: 215px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.courses .container .boxes .item .info {
+    padding: 24px;
+    line-height: normal;
+}
+.courses .container .boxes .item .info .above {
+    column-gap: 1px;
+    margin-bottom: 36px;
+}
+.courses .container .boxes .item .info .above .title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    width: 295px;
+}
+.courses .container .boxes .item .info .above .rating {
+    white-space: nowrap;
+    column-gap: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.courses .container .boxes .item .info .above .rating .star {
+    width: 18px;
+    height: 18px;
+}
+.courses .container .boxes .item .info .below .time, .courses .container .boxes .item .info .below .student {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.courses .container .boxes .item .info .below .time {
+    margin-right: 16px;
+}
+.courses .container .boxes .item .info .below .student {
+    column-gap: 8px;
+    margin-right: 66px;
+}
+.courses .container .boxes .item .info .below .student .profile {
+    width: 16px;
+    height: 16px;
+}
+.courses .container .boxes .item .info .below .cost {
+    font-size: 24px;
+    font-weight: 600;
 }
