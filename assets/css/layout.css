@@ -35,3 +35,98 @@ header .container .help .register {
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+
+footer {
+    color: #fff;
+    background-color: #000;
+    padding-top: 120px;
+    padding-bottom: 52px;
+}
+footer .container .above {
+    align-items: start;
+    column-gap: 91px;
+    margin-bottom: 111px;
+}
+footer .container .above .left .logo img{
+    width: 132px;
+    height: 41px;
+    margin-bottom: 31px;
+}
+footer .container .above .left .slogan {
+    width: 296px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    margin-bottom: 31px;
+}
+footer .container .above .left .social {
+    color: var(--green);
+    width: 138px;
+    /* height: 100%; */
+    align-items: center;
+    
+}
+footer .container .above .left .social i{
+    border-radius: 24px;
+}
+footer .container .above .left .social .fa-twitter {
+    color: #000;
+    background-color: var(--green);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    height: 21px;
+    width: 21px;
+}
+footer .container .above .right {
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+footer .container .above .right .links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer .container .subs {
+    text-align: center;
+}
+footer .container .subs .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+footer .container .subs .subscribe {
+    display: inline-flex;
+    align-items: center;
+}
+footer .container .subs input {
+    width: 419px;
+    height: 52px;
+    padding: 0 18px;
+}
+footer .container .subs input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #3BD27B;
+    display: inline-flex;
+    align-items: center;
+}
+footer .container .subs button {
+    width: 126px;
+    height: 52px;
+    background-color:rgba(59, 210, 123, 1);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}

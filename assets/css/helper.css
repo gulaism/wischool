@@ -52,3 +52,7 @@
 .blue-bg {
     background-color: rgba(225, 255, 238, 1);
 }
+.icon {
+    width: 24px;
+    height: 24px;
+}
