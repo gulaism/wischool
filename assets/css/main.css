@@ -135,6 +135,7 @@
     margin-top: 84px;
     margin-bottom: 141px;
 }
+
 .options .container .items {
     background-color: rgba(221, 255, 255, 1);
     padding: 10px 17px;
@@ -150,4 +151,47 @@
     height: 40px;
     padding: 8px;
     border-radius: 50px;
+}
+
+
+
+.categories {
+    margin-bottom: 98px;
+}
+.categories .container .head {
+    color: #333;
+    line-height: normal;
+    margin-bottom: 64px;
+}
+
+.categories .container .head .title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.categories .container .head button {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.categories .container .boxes {
+    grid-template-columns: repeat(4, 281px);
+    gap: 32px;
+}
+
+.categories .container .boxes .fgr {
+    height: 432px;
+}
+
+.categories .container .boxes .word{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+    
+}
+.categories .container .boxes .fgr .word span {
+    bottom: 9px;
+    left: 24px;
+    right: 0;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
 }
