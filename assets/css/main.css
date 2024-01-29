@@ -37,7 +37,7 @@
 
 .slider .container .right {
     width: 391px;
-    height: 457px;
+    height: 462px;
 }
 
 .slider .container .right .main {
@@ -210,6 +210,7 @@
     font-size: 32px;
     font-weight: 600;
     line-height: normal;
+    text-transform: capitalize;
 }
 
 .courses .container .header .sorting {
@@ -286,6 +287,7 @@
     font-size: 24px;
     font-weight: 500;
     width: 271px;
+    text-transform: capitalize;
 }
 
 .courses .container .boxes .item .info .above .rating,
@@ -440,23 +442,37 @@
     column-gap: 34px;
 }
 
-.review .container .subcont .left {
+.review .container .subcont .left-title {
     font-size: 48px;
     font-weight: 700;
     line-height: normal;
     width: 382px;
     text-transform: capitalize;
     margin-top: 63px;
+    margin-bottom: 60px;
 }
 
-.review .container .subcont .left .emphasize {
+.review .container .subcont .left-title .emphasize {
     display: inline-block;
 }
 
-.review .container .subcont .left .emphasize .vector {
+.review .container .subcont .left-title .emphasize .vector {
     bottom: 0;
     left: 0;
     right: 0;
+}
+.review .container .subcont .left .arrows {
+    column-gap: 48px;
+}
+.review .container .subcont .left .arrows .left-arrow, .review .container .subcont .left .arrows .right-arrow {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 60px; 
+    border: 1px solid rgba(9, 180, 81, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .review .container .subcont .items {
