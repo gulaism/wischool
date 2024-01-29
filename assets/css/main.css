@@ -266,18 +266,21 @@
 .courses .container .boxes .item .info .above, .skill .container .boxes .item .info .above {
     column-gap: 1px;
     margin-bottom: 36px;
+
 }
 .courses .container .boxes .item .info .above .title, .skill .container .boxes .item .info .above .title {
     color: #333;
     font-size: 24px;
     font-weight: 500;
-    width: 295px;
+    width: 271px;
 }
 .courses .container .boxes .item .info .above .rating, .skill .container .boxes .item .info .above .rating {
     white-space: nowrap;
     column-gap: 6px;
     font-size: 16px;
     font-weight: 400;
+    height: 24px;
+    margin-top: 8px;
 }
 .courses .container .boxes .item .info .above .rating .star, .skill .container .boxes .item .info .above .rating .star {
     width: 18px;
