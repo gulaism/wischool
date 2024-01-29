@@ -560,3 +560,64 @@
     line-height: 26px;
     color: #333;
 }
+
+
+
+.contact {
+    padding-bottom: 76px;
+    padding-top: 27px;    
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(https://techviral.net/wp-content/uploads/2017/03/Most-Beautiful-Notorious-Female-Hackers.jpg);
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.contact .container .photo {
+    width: 513px;
+    height: 517px;
+    border-radius: 20px;
+    bottom: -4px;
+    left: 0;
+}
+/* .contact .container {
+    z-index: 99;
+}
+.contact .container .gif3 {
+    bottom: -76px;
+    right: -176px;
+    z-index: 0;
+}  */
+.contact .container .photo img {
+    border-radius: 20px;
+}
+.contact .container .info {
+    width: 568px;
+    margin-left: 632px;
+    
+}
+.contact .container .info .title {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+    line-height: normal;
+}
+.contact .container .info .subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 89px;
+}
+.contact .container .info button {
+    padding: 20px 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: inherit;
+}
+.contact .container .info .call {
+    border: 1px solid var(--green);
+    background-color: #E7FAEF;
+    margin-left: 32px;
+}
