@@ -35,6 +35,11 @@
     width: 100%;
     height: 100%;
 }
+.img-contain {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
 .absolute {
     position: absolute;
 }
@@ -43,4 +48,7 @@
 }
 .inset {
     inset: 0;
+}
+.blue-bg {
+    background-color: rgba(225, 255, 238, 1);
 }
