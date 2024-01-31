@@ -28,6 +28,7 @@ header .container .help .login, header .container .help .register {
 header .container .help .login {
     line-height: normal;
     margin-right: 8px;
+    padding: 8px 18px;
 }
 header .container .help .register {
     line-height: 20px;

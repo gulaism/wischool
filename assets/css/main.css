@@ -1,5 +1,5 @@
 .slider .container {
-    background-color: rgba(226, 226, 226, 0.25);
+    background-image: url(https://65b918da2256670426ab3ed8--fascinating-muffin-ebb007.netlify.app/assets/img/shadow.svg);
     border-radius: 50px;
     padding-left: 60px;
     padding-bottom: 39px;
@@ -243,14 +243,13 @@
 }
 
 .courses .container .header .sorting .select *:not(:first-child) {
-    /* text-align: center; */
     color: var(--green);
 }
 
 .skill .container .boxes,
 .courses .container .boxes {
     grid-template-columns: repeat(3, 391px);
-    column-gap: 12px;
+    column-gap: 32px;
     row-gap: 42px;
 }
 
@@ -274,11 +273,9 @@
     line-height: normal;
 }
 
-.courses .container .boxes .item .info .above,
-.skill .container .boxes .item .info .above {
+.courses .container .boxes .item .info .above {
     column-gap: 1px;
     margin-bottom: 36px;
-
 }
 
 .courses .container .boxes .item .info .above .title,
@@ -288,6 +285,10 @@
     font-weight: 500;
     width: 271px;
     text-transform: capitalize;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    max-height: 72px;
+    overflow: hidden;
 }
 
 .courses .container .boxes .item .info .above .rating,
@@ -342,6 +343,9 @@
     margin-bottom: 109px;
 }
 
+.skill .container .boxes .item .info .above {
+    column-gap: 1px;
+}
 
 
 .education {
@@ -461,14 +465,17 @@
     left: 0;
     right: 0;
 }
+
 .review .container .subcont .left .arrows {
     column-gap: 48px;
 }
-.review .container .subcont .left .arrows .left-arrow, .review .container .subcont .left .arrows .right-arrow {
+
+.review .container .subcont .left .arrows .left-arrow,
+.review .container .subcont .left .arrows .right-arrow {
     width: 60px;
     height: 60px;
     padding: 15px;
-    border-radius: 60px; 
+    border-radius: 60px;
     border: 1px solid rgba(9, 180, 81, 1);
     display: inline-flex;
     align-items: center;
@@ -528,9 +535,10 @@
 
 
 
-.isntructors{
+.isntructors {
     margin-bottom: 207px;
 }
+
 .isntructors .container .header {
     font-size: 32px;
     font-weight: 600;
@@ -541,7 +549,7 @@
 
 .isntructors .container .blogs {
     grid-template-columns: repeat(3, 390px);
-    gap: 12px;
+    gap: 32px;
 }
 
 .isntructors .container .blogs .item {
@@ -550,12 +558,14 @@
     text-align: center;
     padding: 30px 51px 67px 41px;
 }
+
 .isntructors .container .blogs .item .pp {
     width: 114px;
     height: 114px;
     border-radius: 114px;
     margin-bottom: 16px;
 }
+
 .isntructors .container .blogs .item .name {
     font-size: 20px;
     font-weight: 600;
@@ -563,12 +573,14 @@
     margin-bottom: 6px;
     color: #333;
 }
+
 .isntructors .container .blogs .item .speciality {
     font-size: 16px;
     font-weight: 500;
     line-height: 137%;
     margin-bottom: 36px;
 }
+
 .isntructors .container .blogs .item .quote {
     width: 298px;
     font-size: 16px;
@@ -581,12 +593,13 @@
 
 .contact {
     padding-bottom: 76px;
-    padding-top: 27px;    
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(https://techviral.net/wp-content/uploads/2017/03/Most-Beautiful-Notorious-Female-Hackers.jpg);
+    padding-top: 27px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://techviral.net/wp-content/uploads/2017/03/Most-Beautiful-Notorious-Female-Hackers.jpg);
     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .contact .container .photo {
     width: 513px;
     height: 517px;
@@ -594,6 +607,7 @@
     bottom: -4px;
     left: 0;
 }
+
 /* .contact .container {
     z-index: 99;
 }
@@ -605,11 +619,13 @@
 .contact .container .photo img {
     border-radius: 20px;
 }
+
 .contact .container .info {
     width: 568px;
     margin-left: 632px;
-    
+
 }
+
 .contact .container .info .title {
     font-size: 42px;
     font-weight: 700;
@@ -617,6 +633,7 @@
     margin-bottom: 24px;
     line-height: normal;
 }
+
 .contact .container .info .subtitle {
     font-size: 24px;
     font-weight: 400;
@@ -624,6 +641,7 @@
     text-transform: capitalize;
     margin-bottom: 89px;
 }
+
 .contact .container .info button {
     padding: 20px 42px;
     border-radius: 5px;
@@ -632,6 +650,7 @@
     line-height: 20px;
     font-family: inherit;
 }
+
 .contact .container .info .call {
     border: 1px solid var(--green);
     background-color: #E7FAEF;
